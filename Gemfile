@@ -45,3 +45,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Unify your EmberCLI and Rails Workflows
 gem "ember-cli-rails"
+
+# use ActivemodelSerializer
+gem 'active_model_serializers', '~> 0.10.0'
