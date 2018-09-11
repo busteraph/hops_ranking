@@ -10,7 +10,8 @@ class BallotsController < ApplicationController
 
   # GET /ballots/1
   def show
-    render json: @ballot
+    render json: Ballot.first
+    # render json: @ballot
   end
 
   # POST /ballots

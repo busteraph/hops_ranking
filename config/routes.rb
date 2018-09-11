@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
-  resources :items
-  resources :ballots
-  resources :beers
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+	namespace :v1 do
+	  # resources :items
+	  # resources :ballots
+	  # resources :beers
+		resources :ballots
+	end  
+	# For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
