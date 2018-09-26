@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_09_05_102311) do
+ActiveRecord::Schema.define(version: 2018_09_11_162308) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -37,5 +37,4 @@ ActiveRecord::Schema.define(version: 2018_09_05_102311) do
   end
 
   add_foreign_key "line_items", "ballots"
-  add_foreign_key "line_items", "beers"
 end
